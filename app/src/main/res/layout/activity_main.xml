@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -26,33 +26,47 @@
         android:layout_width="354dp"
         android:layout_height="50dp"
         android:layout_centerInParent="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginBottom="340dp"
         android:background="@drawable/background_button1"
         android:text="log out"
         android:textColor="@color/black"
-        app:backgroundTint="#2186BF" />
+        app:backgroundTint="#2186BF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnProfil"
         android:layout_width="354dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120sp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/background_button1"
         android:text="Profil"
         android:textColor="@color/black"
-        app:backgroundTint="#2186BF" />
+        app:backgroundTint="#2186BF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnProfil2"
         android:layout_width="354dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="240sp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/background_button1"
         android:text="Bahasa"
         android:textColor="@color/black"
-        app:backgroundTint="#2186BF" />
+        app:backgroundTint="#2186BF"
+        app:layout_constraintBottom_toTopOf="@+id/btnBahasa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnProfil"
+        app:layout_constraintVertical_bias="0.0" />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

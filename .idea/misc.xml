@@ -4,11 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/drawable/background_button1.xml" value="0.25" />
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_bahasa.xml" value="0.33" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_bahasa.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_language.xml" value="0.1" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_languange.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_profil.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/My_Memo/app/src/main/res/layout/activity_profil.xml" value="0.33" />
       </map>
     </option>
   </component>
